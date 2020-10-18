@@ -1,3 +1,8 @@
+#!/usr/bin/python
+# https://github.com/ilturbo
+
+import re
+
 with open('Decimal.txt') as fin:
     nums = map(int, fin.read().split('\n'))
     nums = list(map(str, map(bin, nums)))
